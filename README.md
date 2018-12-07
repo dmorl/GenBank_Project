@@ -2,7 +2,7 @@
 ______________________________________________
 ## Purpose
 
-This dataset was created as part of a study conducted by Daria Orlowska (iSchool, University of Illinois)
+This dataset is an extension of a study conducted by Daria Orlowska (iSchool, University of Illinois)
 and Andrea Thomer, PhD (iSchool, University of Michigan) assessing the reproducability and representation of GenBank,
 an NIH funded genetic sequence repository.
 It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
