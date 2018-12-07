@@ -1,4 +1,4 @@
-# GenBank Polypodiales Summary Extraction Raw Data Synopsis
+# GenBank Polypodiales Record Extraction Synopsis
 ______________________________________________
 ## Purpose
 
