@@ -1,0 +1,574 @@
+﻿taxonID	vernacularName	language	countryCode	locality	transliteration
+45195094	Thinleaf creepingfern				
+45195512	Tongue fern				
+45196512	Ekaha				
+45197311	Iron fern				
+45197822	Trim Shield fern				
+45197845	Bristly Shield fern				
+45197845	Hairy fern				
+45197864	Creeping Shield fern				
+45197864	Glossy Shield fern				
+45197902	Broad Shield fern				
+45197925	Velvety Shield fern				
+45198181	Florida lacefern				
+45198181	Red-hair Comb Fern				
+45198824	Brownhair lacefern				
+45198905	Eared veinfern				
+45198938	Bellybutton veinfern				
+45198947	Christmas Fern				
+45198975	Portia				
+45198975	Gelappter Schildfarn				
+45198975	Dorniger Schildfarn				
+45199050	Anderson's hollyfern				
+45199132	Brauns Schildfarn				
+45199132	Zarter Schildfarn				
+45199132	Braun's hollyfern				
+45199132	Weicher Schildfarn				
+45199145	California Sword Fern				
+45199232	Alpine shield fern				
+45199295	Dudley's swordfern				
+45199471	Narrowleaf swordfern				
+45199505	Kruckeberg's Hollyfern				
+45199510	Kwakiutl's hollyfern				
+45199512	Aleutian Hollyfern				
+45199531	Shasta Fern				
+45199531	Lemmon's hollyfern				
+45199562	Lanzen-Schildfarn				
+45199562	Northern Hollyfern				
+45199588	Korean rockfern				
+45199643	Attu Hollyfern				
+45228680	Screw fern				
+45228733	Lacy wedge fern				
+45229189	Thicket creepingfern				
+45229286	Clubbed creepingfern				
+45229286	Wedgelet Fern				
+45229447	Coast Leather Fern				
+45229447	Golden leatherfern				
+45229482	Inland Leather Fern				
+45229492	Mangrove fern				
+45229492	Piai Lasa				
+45229507	Floating antlerfern				
+45229512	Triangle waterfern				
+45229514	Oriental water fern				
+45229514	Water Sprite				
+45229606	Bamboo fern				
+45229679	American rockbrake				
+45229705	Cascade rockbrake				
+45229706	Krauser Rollfarn				
+45229726	Sitka rockbrake				
+45229730	Fragile rockbrake				
+45230242	Forest brake				
+45230306	Striped brake				
+45230306	Silver brake				
+45230334	Bahama Ladder Brake				
+45230369	Thinleaf brake				
+45230486	Netted brake				
+45230510	Kretischer Saumfarn				
+45230510	Cretan Brake				
+45230510	helecho orlado				
+45230510	Helecho temblon				
+45230591	Toothed brake				
+45230654	Sword brake fern				
+45230654	Slender brake				
+45230678	Victorian brake				
+45230722	Elephantleaf brake				
+45230814	Unvollständiger Saumfarn				
+45230814	Rajuno dentado				
+45230924	Longleaf brake				
+45230924	Ladder brake				
+45230941	Sweet fern				
+45230994	Helecho arana				
+45230994	Vielteiliger Saumfarn				
+45230994	Spider Brake				
+45231052	Oriental brake				
+45231091	White-lined Cretan Brake				
+45231136	Braid fern				
+45231201	Striped brake				
+45231366	shaking brake				
+45231366	Zitter-Saumfarn				
+45231366	Tender brake				
+45231366	trembling fern				
+45231366	Turawera				
+45231366	Australian brake fern				
+45231374	Painted brake				
+45231376	Giant brake				
+45231376	Trisect brake				
+45231407	Jungle brake				
+45231438	Helecho de abichuela				
+45231438	Gebänderter Saumfarn				
+45231438	Chinese Ladder Brake				
+45231577	Japanese Claw fern				
+45231577	Carrot fern				
+45231654	Wolliger Pelzfarn				
+45231654	Helecho lanudo				
+45231654	Doradilla velluda				
+45231671	Dünnblättriger Nacktfarn				
+45231671	Jersey fern				
+45231671	Annual fern				
+45231671	Helecho de tiempo				
+45231717	Dixie silverback fern				
+45231769	Island goldback fern				
+45231879	Mountain silverback fern				
+45231923	Goldenrod Fern				
+45231923	Threeleaf goldback fern				
+45231952	Goldback fern				
+45231952	Curly Gold fern				
+45232093	true maidenhair				
+45232093	Common maidenhair				
+45232102	Aleutian Maidenhair Fern				
+45232115	Double edge maidenhair				
+45232153	Frauenhaarfarn				
+45232153	Maidenhair Fern				
+45232197	Trailing maidenhair				
+45232197	Tailed maidenhair				
+45232237	Common Maidenhair Fern				
+45232237	Brittle maidenhair				
+45232293	Filmy maidenhair				
+45232293	Small maidenhair				
+45232354	Giant maidenhair				
+45232354	Black-stem maidenhair				
+45232354	Australian maidenhair				
+45232359	Fragile maidenhair				
+45232401	Rough maidenhair				
+45232401	Rosy maidenhair				
+45232439	Ghatak's maidenhair fern				
+45232450	California Maidenhair Fern				
+45232459	Broadleaf maidenhair				
+45232516	Fragrant Maiden-hair				
+45232599	Northern Maidenhair Fern				
+45232630	Silver-dollar fern				
+45232706	Giant maidenhair				
+45232720	Glossy maidenhair				
+45232734	Pyramid maidenhair				
+45232743	Delta maidenhair				
+45232758	Talerfarn				
+45232758	Hierba tostonera				
+45232854	Fan maidenhair				
+45232854	Brittle Maidenhair Fern				
+45232936	Diamond maidenhair				
+45232954	Hairy Maidenhair Fern				
+45232954	Fuzzy maidenhair				
+45232969	Hardy maidenhair				
+45232969	Evergreen maidenhair				
+45232982	Woolly maidenhair				
+45232994	Green Mountain Maidenhair				
+45233127	Stiff shoestring fern				
+45233262	Bootlace Fern				
+45233386	Ox-tongue fern				
+45233511	Appalachian shoestring fern				
+45233513	Grass Fern				
+45233530	Shoestring Fern				
+45233605	Copper Fern				
+45233644	Rival lipfern				
+45233644	Texas lipfern				
+45233647	Alabama Lipfern				
+45233664	Golden Lipfern				
+45233686	Cleveland's Lipfern				
+45233690	Mrs. Cooper's Lipfern				
+45233697	Coville's Lipfern				
+45233697	Bead fern				
+45233707	Fendler's Lipfern				
+45233713	Slender Lipfern				
+45233721	Lace lipfern				
+45233727	Coastal Lipfern				
+45233735	Hairy Lipfern				
+45233750	Beaded Lipfern				
+45233777	Fairy Swords				
+45233799	Southern Lipfern				
+45233840	Cotton Fern				
+45233844	Royal lipfern				
+45233853	Parry's Cloak Fern				
+45233861	Pringle's Lipfern				
+45233882	Eaton's Lipfern				
+45233893	Rough lipfern				
+45233910	Woolly Lipfern				
+45233917	Viscid Lipfern				
+45233921	Villous Lipfern				
+45233924	Wooton's Lipfern				
+45233928	Wright's Lipfern				
+45233952	Graceful lipfern				
+45233982	Schuppenfarn				
+45233998	Doradilla canela				
+45233998	Kurzstieliger Pelzfarn				
+45234014	Mouse-ear fern				
+45234037	Foreign Cloak Fern				
+45234044	Scaled cloak fern				
+45234073	California Cloak Fern				
+45234086	Copel.'s Cloak Fern				
+45234093	Copelands cloak fern				
+45234135	Gray's Cloak Fern				
+45234140	Sonoran cloak fern				
+45234142	Gregg's Cloak Fern				
+45234177	Lemmon's Cloak Fern				
+45234198	Maxon's cloak fern				
+45234211	Ala de sacre				
+45234240	Nealley's cloak fern				
+45234240	Schaffner's cloak fern				
+45234268	Star cloak fern				
+45234322	Coffee cliffbrake				
+45234355	Purple cliffbrake				
+45234387	Sierra cliffbrake				
+45234397	Brewer's cliffbrake				
+45234400	Bridges' cliffbrake				
+45234424	Heart-leaved cliffbrake				
+45234462	Sickle fern				
+45234475	Gastony's cliffbrake				
+45234477	Smooth cliffbrake				
+45234483	Missouri cliffbrake				
+45234485	Western dwarf cliffbrake				
+45234491	Smooth cliffbrake				
+45234509	Intermediate cliffbrake				
+45234525	Lyngholm's cliffbrake				
+45234527	Bird's Foot cliffbrake				
+45234561	Ovate-leaved cliffbrake				
+45234617	New Zealand Cliff brake				
+45234634	Ternate-leaved cliffbrake				
+45234634	Trans-Pecos cliffbrake				
+45234662	Spiny cliffbrake				
+45234666	Wright's cliffbrake				
+45234683	Cochise scaly cloakfern				
+45234689	Chihuahua scaly cloakfern				
+45234690	Arizona scaly cloakfern				
+45234700	Hybrid cloakfern				
+45234716	Wavy Scaly Cloak Fern				
+45234728	Windham's scaly cloakfern				
+45234742	Powdery Cloak Fern				
+45234752	Fendler's Cloak Fern				
+45234772	Hairy false cloak fern				
+45234778	Jones' Cloak Fern				
+45234784	Border Cloak Fern				
+45234797	Small-leaved Cloak Fern				
+45234876	Maxon's goldback fern				
+45234879	Pale Silverback Fern				
+45234885	Goldback fern				
+45234895	Silverback fern				
+45234926	Whitefoot Lipfern				
+45234968	Rock fern				
+45234993	Silver Cloak fern				
+45235002	Woolly Cloak fern				
+45235055	Woolly Cloak fern				
+45235055	Bristly Cloak fern				
+45235254	Mulga fern				
+45235269	Belangers spleenwort				
+45235323	helecho chico				
+45235323	Helecho de roca				
+45235323	Guanchen-Schuppenfarn				
+45235411	Madeira-Schuppenfarn				
+45235411	Culantrillo de risco				
+45235454	Zierlicher Schuppenfarn				
+45235454	Doradilla fina				
+45235552	Korsischer Schuppenfarn				
+45235552	Helecho de risco				
+45235559	Tirajana-Schuppenfarn				
+45235569	Green cliffbrake				
+45235679	Silver Cloak fern				
+45235791	Floury Cloak fern				
+45235986	Strawberry fern				
+45235986	Star fern				
+45236064	Arizona Lipfern				
+45236112	Glandular Lipfern				
+45236151	California Lace Fern				
+45236157	Tufted lacefern				
+45236161	Indian's-dream				
+45236448	Hand fern				
+45236448	Digit fern				
+45237022	Bipinnate Cuplet Fern				
+45237100	Tropical hayscented fern				
+45237117	Lacy ground fern				
+45237169	Beaded Cuplet Fern				
+45237169	Southern hayscented fern				
+45237253	Eastern hayscented fern				
+45237429	Adlerfarn				
+45237429	Helecho comun				
+45237429	Southern Bracken				
+45237519	Southern brackenfern				
+45237550	Western brackenfern				
+45237559	Western brackenfern				
+45237576	Hairy brackenfern				
+45237591	Hairy bracken				
+45237610	Northern bracken				
+45237666	Ring fern				
+45237666	Scented fern				
+45237666	Lace fern				
+45237666	Matata				
+45237666	Hard fern				
+45237678	Austral Ground fern				
+45237772	Thousand-leaved fern				
+45237772	Dissected ground fern				
+45237776	Harsh Ground fern				
+45237826	Creeping Bramble Fern				
+45237835	Downy Ground fern				
+45237850	Ruddy Ground fern				
+45237927	Soft Ground fern				
+45237993	Tomato fern				
+45238041	Oak fern				
+45238041	Mata				
+45238041	Bat's wing fern				
+45238041	Water fern				
+45238120	Bulblet bladderfern				
+45238154	Zerbrechlicher Blasenfarn				
+45238154	Brittle bladderfern				
+45238256	St. Lawrence bladderfern				
+45238261	Mountain bladderfern				
+45238261	Berg-Blasenfarn				
+45238293	Lowland bladderfern				
+45238296	Reeves' bladderfern				
+45238300	Sudeten-Blasenfarn				
+45238312	Tennessee bladderfern				
+45238317	Upland brittle bladderfern				
+45238325	Utah bladderfern				
+45238375	Appalachian oakfern				
+45238376	Pacific oakfern				
+45238387	Eichenfarn				
+45238387	Western oakfern				
+45238423	Nahanni Oak Fern				
+45238453	Scented oakfern				
+45238453	Ruprechtsfarn				
+45238483	Blackspore oakfern				
+45238564	Narrow-leaved gladefern				
+45238592	Cutleaf spleenwort				
+45238622	Black Spleenwort				
+45238622	Culantrillo negro				
+45238622	Schwarzer Streifenfarn				
+45238678	Ladder spleenwort				
+45238678	Braungrüner Streifenfarn				
+45238689	Shredded spleenwort				
+45238717	Braithwaites Streifenfarn				
+45238717	Culantrillo de Braithwaite				
+45238796	Culantrillo calambur				
+45238796	Zweischneidiger Streifenfarn				
+45238850	Ground spleenwort				
+45238877	Slender spleenwort				
+45238884	Doradilla medicinal				
+45238884	Gold-Milzfarn				
+45238915	Auricled Spleenwort				
+45238915	Eared spleenwort				
+45238938	Bird's nest fern				
+45239031	Bourgeaus Streifenfarn				
+45239031	Bourgeau's Spleenwort				
+45239041	Bradley's Spleenwort				
+45239064	Moki				
+45239064	Manamana				
+45239064	Mother spleenwort				
+45239064	Hen and Chickens fern				
+45239078	Hen and Chicken Fern				
+45239092	Doradilla de monteverde				
+45239092	Kanaren-Streifenfarn				
+45239148	Echter Milzfarn				
+45239148	Rusty-back Fern				
+45239148	Schriftfarn				
+45239331	Hemlock Spleenwort				
+45239369	Serpentin-Streifenfarn				
+45239369	Keilblättriger Streifenfarn				
+45239414	Countess Dalhousies Spleenwort				
+45239426	Mauritius spleenwort				
+45239478	Toothed Spleenwort				
+45239567	Three-in-one fern				
+45239707	Scalloped spleenwort				
+45239723	Little Spleenwort				
+45239796	Zerschlitzter Streifenfarn				
+45239802	Walking Fern				
+45239802	Necklace fern				
+45239802	Butterfly fern				
+45239815	Makawe o Raukatauri				
+45239815	Hanging spleenwort				
+45239815	Weeping spleenwort				
+45239828	Jura-Streifenfarn				
+45240020	Hierba candil				
+45240020	Efeufarn				
+45240053	Bicolored Spleenwort				
+45240053	Varicolored Spleenwort				
+45240115	Bastard-Hirschzunge				
+45240324	Johnston River fern				
+45240474	Helecho marino				
+45240474	Meeres-Streifenfarn				
+45240505	Shining spleenwort				
+45240514	Single-sorus Spleenwort				
+45240514	Einsoriger Streifenfarn				
+45240514	Culantrillo de pozo				
+45240538	Mountain Spleenwort				
+45240601	Bird's-nest or Crow's-nest fern				
+45240679	Shining spleenwort				
+45240679	Huruhuruwhenua				
+45240679	Glossy spleenwort				
+45240690	Culantrillo de Billot				
+45240690	Billots Streifenfarn				
+45240717	Shore spleenwort				
+45240717	Parenako				
+45240717	Parako				
+45240783	Culantrillo negro de monte				
+45240783	Spitzer Streifenfarn				
+45240813	Chaffy spleenwort				
+45240815	Palmer's Spleenwort				
+45240845	Poor Knights spleenwort				
+45240925	Lobed Spleenwort				
+45240938	Ebony Spleenwort				
+45240968	Ruffled Spleenwort				
+45240969	Blanket fern				
+45240979	Petako				
+45240979	Sickle spleenwort				
+45241086	Dwarf Spleenwort				
+45241161	Blackstem Spleenwort				
+45241168	Walking Fern				
+45241214	Wall-rue				
+45241214	Mauerraute				
+45241240	Wall-rue				
+45241248	Lance asplenium				
+45241283	Pfeilblättrige Hirschzunge				
+45241372	Hirschzunge				
+45241372	Tonguefern				
+45241372	Lengua cervina				
+45241383	Hart's tonguefern				
+45241405	Dolomit-Streifenfarn				
+45241420	Forked Spleenwort				
+45241420	Nordischer Streifenfarn				
+45241420	Helecho cinta				
+45241456	New World Bird's Nest Fern				
+45241535	Narrow-leaf bird's-nest fern				
+45241663	Culantrillo de Tenor				
+45241663	Teror-Streifenfarn				
+45241709	Culantrillo menor				
+45241709	Braunstieliger Streifenfarn				
+45241709	Maidenhair spleenwort				
+45241767	Culantrillo menor				
+45241767	Lovis' Strichfarn				
+45241857	Limestone spleenwort				
+45241859	Western Spleenwort				
+45241874	Grüner Streifenfarn				
+45241874	Green Spleenwort				
+45241968	Gegenblättriger Streifenfarn				
+45241979	Heuflers Streifenfarn				
+45242035	Hybrid Spleenwort				
+45242168	Schwäbischer Streifenfarn				
+45242238	Alpen-Wimperfarn				
+45242238	Alpine Cliff Fern				
+45242262	Appalachian cliff fern				
+45242277	Cochise cliff fern				
+45242305	Smooth Cliff Fern				
+45242305	Nordischer Wimperfarn				
+45242324	Rusty Cliff Fern				
+45242324	Rostroter Wimperfarn				
+45242324	Südlicher Wimperfarn				
+45242377	Mexican Cliff Fern				
+45242400	New Mexican Cliff Fern				
+45242404	Blunt-lobed Cliff Fern				
+45242419	Western cliff fern				
+45242423	Oregon cliff fern				
+45242426	Oregon cliff fern				
+45242440	Philipps's Cliff Fern				
+45242445	Plummer's Cliff Fern				
+45242465	Zierlicher Wimperfarn				
+45242475	Rocky Mountain woodsia				
+45242483	Laurent's cliff fern				
+45242512	Tryon's woodsia				
+45242531	Straußfarn				
+45242531	Ostrich Fern				
+45242590	Sensitive Fern				
+45242608	Virginia Chain Fern				
+45242620	Netted Chain Fern				
+45242637	Giant Chain Fern				
+45242661	Oriental Chain fern				
+45242669	Rooting chainfern				
+45242669	Pijara				
+45242669	Wurzelnder Kettenfarn				
+45242675	Mexican Chain fern				
+45242707	Climbing Swamp fern				
+45242725	Swamp Water fern				
+45242746	Swamp Fern				
+45242746	Toothed midsorus fern				
+45242746	Saw Fern				
+45242779	Peretao				
+45242831	Nini				
+45242948	Strap Water fern				
+45242958	Dwarf hard fern				
+45243025	Hammock Fern				
+45243311	Thread fern				
+45243325	Crown fern				
+45243325	Piupiu				
+45243343	Fishbone Water fern				
+45243375	Climbing blechnum				
+45243533	Deer Fern				
+45243533	Doradilla de bosque				
+45243533	Rippenfarn				
+45243748	Tristan da Cunha tree fern				
+45243818	Rosy Water fern				
+45243833	Palm leaf fern				
+45243983	Mountain kiokio				
+45243983	Dunedin-Cass blechnum				
+45243990	Swamp kiokio				
+45244075	Green Bay blechnum				
+45244110	Brazilian Tree fern				
+45244123	Gristle fern				
+45244142	Dwarf tree fern				
+45244166	Hacksaw fern				
+45244166	Prickly Rasp fern				
+45244170	Pukupuku				
+45244170	Rasp fern				
+45244175	Small Rasp fern				
+45244215	Pukupuku				
+45244215	Rasp fern				
+45244215	Hacksaw fern				
+45244319	Alpine ladyfern				
+45244352	Asplenium ladyfern				
+45244367	Subarctic ladyfern				
+45244396	Subarctic ladyfern				
+45244681	Berg-Frauenfarn				
+45244681	Alpen-Frauenfarn				
+45244766	Helecho hembra				
+45244766	Wald-Frauenfarn				
+45244766	Lady Fern				
+45245447	Silver false spleenwort				
+45245795	Japanese false spleenwort				
+45246143	Austral Lady fern				
+45246247	Helecho de monte				
+45246247	Schatten-Frauenfarn				
+45246570	Vegetable Fern				
+45246874	Governor Laffans Fern				
+45246955	Lance-leaved Twin-sorus Fern				
+45248000	Long beechfern				
+45248000	Buchenfarn				
+45248034	Broad beechfern				
+45248301	Mariana Maiden Fern				
+45248301	Swordfern				
+45248386	Marsh Fern				
+45248386	Sumpffarn				
+45248409	Eastern marsh fern				
+45248597	Sierra marsh fern				
+45248616	New York fern				
+45248661	Bog fern				
+45248661	Massachusetts Fern				
+45249089	Balbis' maiden fern				
+45250064	Glandular Maiden Fern				
+45250418	Mountain Fern				
+45250418	Berglappenfarn				
+45250448	Queen's-veil maiden fern				
+45250536	Deltoid maiden fern				
+45251167	Alabama maiden fern				
+45251246	Streak-sorus Fern				
+45251857	Darkgreen maiden fern				
+45251875	Creeping Star-hair Fern				
+45251965	Stiff Star-hair Fern				
+45252041	Freetip maiden fern				
+45252169	Makaleha maiden fern				
+45252171	Willdenows maiden fern				
+45252171	Hottentot Fern				
+45252447	Broadleaf maiden fern				
+45252554	Lattice-vein Fern				
+45252582	Toothed Lattice-vein Fern				
+45253860	Jeweled maiden fern				
+45255464	Abrupt-tip Maiden Fern				
+45255587	Downy woodfern				
+45255587	Downy Maiden Fern				
+45255587	Gezähnter Sumpffarn				
+45255587	Cristela dentada				
+45255713	Stately Maiden Fern				
+45255868	Kunth's maiden fern				
+45255868	Widespread Maiden Fern				
+45255913	Ovate Maiden Fern				
+45255921	Lindheimers Maiden Fern				
+45256015	Gridscale maiden fern				
+45256121	Sonoran maiden fern				
+45256123	Hairy Maiden Fern				
+45256162	Roughhairy maiden fern				
+45256361	Malaysia Tree maidenhair fern				
+45256869	False hollyfern				
