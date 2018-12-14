@@ -23,6 +23,7 @@ It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 
 - poly_merged_dataset.csv: [Google Drive](https://drive.google.com/open?id=1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj)
 - poly_final_dataset.csv: [Google Drive](https://drive.google.com/open?id=1pZSpq1GTLqh0hQSt8Q4GH4zD3MSsms2Fm)
+- poly_analysis.xlsx: GitHub
 
 ## System Requirements and Process
 The final dataset poly_final_dataset.csv was created using Jupyter Notebook using python 3.7.1
@@ -142,7 +143,7 @@ was done programmatically within python to allow replication on multiple dataset
 The following are variable descriptions which function as column headers in poly_final_dataset.csv.
 Missing values were taken before the merge with poly_cataloguelife.csv (see System Requirements and Process section for more details).
 
-###GenBank_ID
+#### GenBank_ID
 - Required
 - Source: GenBank
 - Description: The GenBank identifier for each submission
@@ -151,7 +152,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 0
 - Notes: This variable also serves as the primary key; also contains the version
 
-####sci_name
+#### sci_name
 - Required
 - Source: GenBank
 - Description: The scientific name of the specimen represented in the GenBank summary
@@ -160,7 +161,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 0
 - Notes: This string usually consists of two phrases referring to the Family and Species. However, sometimes only the Family name is present if the specific Species is unknown (more general), or sometimes the subspecies is present (more specific)
 
-####common_name
+#### common_name
 - Optional
 - Source: GenBank, Catalogue of Life
 - Description: The common name of the specimen. Taken originally from GenBank, missing values supplemented by the Catalogue of Life, whenever applicable.
@@ -168,7 +169,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: Not all specimens have a common name, or an English common name  
     - Number of missing values: 96110 before Catalogue of Life merge (96118 after merge, **incorrect, duplicates**)
 
-####authors
+#### authors
 - Required
 - Source: GenBank
 - Description: The authors that have published the article related to the GenBank summary OR who deposited the GenBank record
@@ -177,7 +178,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 0
 - Notes: Author names are in the format last name, first initial, middle initial
 
-####article_title
+#### article_title
 - Required
 - Source: GenBank
 - Description: The article title that is related with the GenBank summary
@@ -186,7 +187,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 0
 - Notes: If there was no article associated with the summary, this field will contain information information about how the GenBank record was deposited (found in "article_extra") 
 
-####article_extra [dropped from final dataset, present in poly_merged_dataset.csv]
+#### article_extra {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: An additional article title associated with the GenBank summary OR how the GenBank record was deposited
@@ -196,7 +197,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Unique values: "Direct Submission" is the most common value
 - Notes: Unique values only refer to information about how the GenBank record was deposited
 
-####journal
+#### journal
 - Required
 - Source: GenBank
 - Description: The journal information where the associated article was published
@@ -205,7 +206,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 0
 - Notes: If there was no article associated with the summary, this variable will indicate what author-affliated University or entity deposited the GenBank record
 
-####journal_extra [dropped from final dataset, present in poly_merged_dataset.csv]
+#### journal_extra {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: The author-affiliated University or entity, in regards to the GenBank record deposit
@@ -213,7 +214,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: If no article was associated with the summary, this information might be contained within "journal"    
     - Number of missing values: 897
 
-####doi
+#### doi
 - Optional
 - Source: GenBank
 - Description: The unique identifier associated with the article
@@ -222,7 +223,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 25092
 - Notes: A DOI is a "digital object identifier", and serves as a persistent identifier for articles, documents, and datasets online
 
-####pubmed_ID
+#### pubmed_ID
 - Optional
 - Source: GenBank
 - Description: The unique identifier that links the GenBank summary with the associate article record in PubMed
@@ -230,7 +231,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: There is not always an article associated with the GenBank summary. Even if there is, it isn't always found in PubMed, or it isn't always linked to its PubMed record    
     - Number of missing values: 25225
 
-####linking
+#### linking
 - Required
 - Source: New categorixation
 - Description: A variable derived from "pubmed_ID", "article_title", "article_extra", "journal", and "journal_extra"
@@ -240,7 +241,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Unique values: linked, unlinked published, unlinked unpublished, unlinked missing 
 - Notes: "Linked" refers to the presence of the actual hyperlink that allows visitors to easily access the associated article with the GenBank summary. "Unlinked published" refers to the fact that the associated article has been published (citation information has been included), but a hyperlink has not been provided. "Unlinked unpublished" means that an article title is given, but journal information does not exist (represented by the words "unpublished"). "Unlinked missing" means that no article information has been provided, which either means that it was published long after this deposit, the authors failed to provide it during deposit, or the GenBank record is not included in any publication by the authors that deposited it
 
-####biosample [dropped from final dataset, present in poly_merged_dataset.csv]
+#### biosample {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: A unique identifier that ties the GenBank summary to the database BioSample
@@ -249,7 +250,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 45681
 - Notes: The BioSample database contains descriptions of biological source materials used in experimental assays
 
-####bioproject [dropped from final dataset, present in poly_merged_dataset.csv]
+#### bioproject {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: A unique identifiers that ties the GenBank summary to the database BioProject
@@ -258,7 +259,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 45318
 - Notes: A BioProject is a collection of biological data related to a single initiative, originating from a single organization or from a consortium. A BioProject record provides users a single place to find links to the diverse data types generated for that project (congregates Biosamples)
 
-####specimen_voucher
+#### specimen_voucher
 - Optional
 - Source: GenBank
 - Description: A unique identifier that links the specimen in the GenBank record with the physical specimen in a museum or private collection
@@ -267,7 +268,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 7232
 - Notes: This variable usually contains the museum ID (usually an acronym representing the museum where the specimen voucher associated with the GenBank record is held) and the collection ID (consisting of the collector's last name and unique numbers representing the collection) 
 
-####collection_date
+#### collection_date
 - Optional
 - Source: GenBank
 - Description: The date when the specimen was originally collected on
@@ -276,7 +277,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 94803
 - Note: This information can be valuable in determining what standard was used to obtain specific coordinates
 
-####collected_by
+#### collected_by
 - Optional
 - Source: GenBank
 - Description: The names of the individuals responsible for finding the specimen
@@ -285,7 +286,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 93531
 - Note: This information should match the specimen_voucher information
 
-####location_country
+#### location_country
 - Optional
 - Source: GenBank
 - Description: The country from which the specimen originated from
@@ -294,7 +295,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 73418
 - Notes: This was originally the first half of the variable labeled "location". It was divided to better match up with geopolitical areas
 
-####location_specific
+#### location_specific
 - Optional
 - Source: GenBank
 - Description: The more specific textual information about where the specimen originated from
@@ -303,7 +304,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
     - Number of missing values: 87755
 - Notes: This was originally the second half of the variable labeled "location". It includes locations such as cities, counties, states, islands (that are not countries), and specific places
 
-#####coordinates
+#### coordinates
 - Optional
 - Source: GenBank
 - Description: Geographic coordinates in the form of latitute, longitude that point to where the specimen originated from
@@ -311,7 +312,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: Specimen locations are not always provided in terms of specific geographic coordinates     
     - Number of missing values: 96463
 
-####location_specificity
+#### location_specificity
 - Required
 - Source: New categorixation
 - Description: A variable derived from "location_country", "location_specific", and "coordinates"
@@ -321,7 +322,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Unique values: broad textual (1), specific texual (2), coordinates (3), missing (999)  
 - Notes: Classification of the granularity of locality information in the GenBank record. Includes four choices: coordinates (most granular, 3), specific textual (2), broad textual (1), missing (999). 
 
-####geopolitical_match
+#### geopolitical_match
 - Optional
 - Source: GenBank, UN Geoscheme
 - Description: The matching geopolitical region to the country where the specimen originated from
@@ -329,7 +330,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: This field will only be filled out if location_country is not blank    
     - Number of missing values: 73418
 
-####geopolitical_distribution
+#### geopolitical_distribution
 - Optional
 - Source: Catalogue of Life, UN Geoscheme
 - Description: This variable matched on sci_name between the Catalogue of Life and GenBank records. It lists all the geopolitical regions where the species can be found.
@@ -337,7 +338,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: This field will only be filled out if sci_name matched between GenBank and the Catalogue of Life
     - Number of missing values: 71013 **incorrect, duplicates**       
 
-####location_distribution
+#### location_distribution
 - Optional
 - Source: Catalogue of Life, UN Geoscheme
 - Description: This variable matched on sci_name between the Catalogue of Life and GenBank records. It lists all the locations where the species can be found.
@@ -345,7 +346,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: This field will only be filled out if sci_name matched between GenBank and the Catalogue of Life
     - Number of missing values: 71013 **incorrect, duplicates**
 
-####record_overlap [dropped from final dataset, present in poly_merged_dataset.csv]
+#### record_overlap {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: This might be where overlap is listed between records --> unsure
@@ -353,7 +354,7 @@ Missing values were taken before the merge with poly_cataloguelife.csv (see Syst
 - Missing values reason: Unsure how this is populated (automatically?)  
     - Number of missing values: 0
 
-####note [dropped from final dataset, present in poly_merged_dataset.csv]
+#### note {dropped from final dataset, present in poly_merged_dataset.csv}
 - Optional
 - Source: GenBank
 - Description: A hodge-podge of values ranging from geographic coordinates to specimen location to species information or links to other records
