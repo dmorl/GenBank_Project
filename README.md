@@ -8,21 +8,21 @@ an NIH funded genetic sequence repository.
 It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 
 ## Files Generated (in order) and Location
-polypodiales_download_2018-12-12.xml: [Google Drive](https://google.com)
-GenBank_Root_Fix.ipynb: GitHub
-fixed_polypodiales_download.csv
-GenBank_ExtractionScript.ipynb: GitHub
-polypodiales_GenBankextraction.csv
-GenBank_toPandas.ipynb: GitHub
+- polypodiales_download_2018-12-12.xml: [Google Drive](https://drive.google.com/open?id=1WVZRw5TSxwjPD7R6qE119gq_0QJRYLee)
+- GenBank_Root_Fix.ipynb: GitHub
+- fixed_polypodiales_download.csv
+- GenBank_ExtractionScript.ipynb: GitHub
+- polypodiales_GenBankextraction.csv
+- GenBank_toPandas.ipynb: GitHub
 
-poly_taxa.txt: GitHub
-poly_vernacular.txt: GitHub
-poly_locationdescription.txt: GitHub
-poly_distribution.csv
-poly_cataloguelife.csv
+- poly_taxa.txt: GitHub
+- poly_vernacular.txt: GitHub
+- poly_locationdescription.txt: GitHub
+- poly_distribution.csv
+- poly_cataloguelife.csv: GitHub
 
-poly_merged_dataset.csv: [Google Drive](https://google.com)
-poly_final_dataset.csv: [Google Drive](https://google.com)
+- poly_merged_dataset.csv: [Google Drive](https://drive.google.com/open?id=1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj)
+- poly_final_dataset.csv: [Google Drive](https://drive.google.com/open?id=1pZSpq1GTLqh0hQSt8Q4GH4zD3MSsms2Fm)
 
 ## System Requirements and Process
 The final dataset poly_final_dataset.csv was created using Jupyter Notebook using python 3.7.1
@@ -140,6 +140,7 @@ was done programmatically within python to allow replication on multiple dataset
 -------------------------------------------------------------------
 ## Variable Descriptions
 The following are variable descriptions which function as column headers in poly_final_dataset.csv.
+Missing values were taken before the merge with poly_cataloguelife.csv (see System Requirements and Process section for more details).
 
 ###GenBank_ID
 - Required
@@ -165,7 +166,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The common name of the specimen. Taken originally from GenBank, missing values supplemented by the Catalogue of Life, whenever applicable.
 - Values: String
 - Missing values reason: Not all specimens have a common name, or an English common name  
-    - Number of missing values: 80255 (80362 before Catalogue of Life merge)
+    - Number of missing values: 96110 before Catalogue of Life merge (96118 after merge, **incorrect, duplicates**)
 
 ####authors
 - Required
@@ -182,7 +183,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The article title that is related with the GenBank summary
 - Values: String
 - Missing values reason: This field should never be empty. Even if articles are not linked with the GenBank summary, this field will contain information about the record instead  
-    - Number of missing values: 1 (**this is incorrect**)
+    - Number of missing values: 0
 - Notes: If there was no article associated with the summary, this field will contain information information about how the GenBank record was deposited (found in "article_extra") 
 
 ####article_extra [dropped from final dataset, present in poly_merged_dataset.csv]
@@ -190,8 +191,8 @@ The following are variable descriptions which function as column headers in poly
 - Source: GenBank
 - Description: An additional article title associated with the GenBank summary OR how the GenBank record was deposited
 - Values: String
-- Missing values reason: If no article was associated with the summary, deposit information might be contained within "article_title"    
-    - Number of missing values: 906
+- Missing values reason: If no article was associated with the summary, deposit information might be contained within "article_title"   
+    - Number of missing values: 897 
 - Unique values: "Direct Submission" is the most common value
 - Notes: Unique values only refer to information about how the GenBank record was deposited
 
@@ -201,7 +202,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The journal information where the associated article was published
 - Values: String
 - Missing values reason: This field should never be empty. Even if article is not linked with the GenBank summary, this field will contain author-affiliated information
-    - Number of missing values: 1 (**this is incorrect**)
+    - Number of missing values: 0
 - Notes: If there was no article associated with the summary, this variable will indicate what author-affliated University or entity deposited the GenBank record
 
 ####journal_extra [dropped from final dataset, present in poly_merged_dataset.csv]
@@ -210,7 +211,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The author-affiliated University or entity, in regards to the GenBank record deposit
 - Values: String
 - Missing values reason: If no article was associated with the summary, this information might be contained within "journal"    
-    - Number of missing values: 906
+    - Number of missing values: 897
 
 ####doi
 - Optional
@@ -218,7 +219,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The unique identifier associated with the article
 - Values: String (URI)
 - Missing values reason: There is not always an article associatedd with the GenBank summary. Also, not all articles contain a persistent identifier    
-    - Number of missing values: 20131
+    - Number of missing values: 25092
 - Notes: A DOI is a "digital object identifier", and serves as a persistent identifier for articles, documents, and datasets online
 
 ####pubmed_ID
@@ -227,7 +228,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The unique identifier that links the GenBank summary with the associate article record in PubMed
 - Values: Integer, 8 digit
 - Missing values reason: There is not always an article associated with the GenBank summary. Even if there is, it isn't always found in PubMed, or it isn't always linked to its PubMed record    
-    - Number of missing values: 20097
+    - Number of missing values: 25225
 
 ####linking
 - Required
@@ -245,7 +246,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: A unique identifier that ties the GenBank summary to the database BioSample
 - Values: String, a mixture of letters and numbers
 - Missing values reason: A GenBank summary is not always tied to a bioSample summary   
-    - Number of missing values: 37886
+    - Number of missing values: 45681
 - Notes: The BioSample database contains descriptions of biological source materials used in experimental assays
 
 ####bioproject [dropped from final dataset, present in poly_merged_dataset.csv]
@@ -254,7 +255,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: A unique identifiers that ties the GenBank summary to the database BioProject
 - Values: String, a mixture of letters and numbers
 - Missing values reason: A GenBank summary is not always tried to a BioProject
-    - Number of missing values: 37480
+    - Number of missing values: 45318
 - Notes: A BioProject is a collection of biological data related to a single initiative, originating from a single organization or from a consortium. A BioProject record provides users a single place to find links to the diverse data types generated for that project (congregates Biosamples)
 
 ####specimen_voucher
@@ -263,7 +264,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: A unique identifier that links the specimen in the GenBank record with the physical specimen in a museum or private collection
 - Values: String
 - Missing values reason: The specimen used in the GenBank record is not always deposited in a public museum record, or catalogued in a private collection  
-    - Number of missing values: 5191
+    - Number of missing values: 7232
 - Notes: This variable usually contains the museum ID (usually an acronym representing the museum where the specimen voucher associated with the GenBank record is held) and the collection ID (consisting of the collector's last name and unique numbers representing the collection) 
 
 ####collection_date
@@ -272,7 +273,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The date when the specimen was originally collected on
 - Values: Date
 - Missing values reason: This information might not be available if the record is not linked to a museum voucher, or if the researcher neglected to include it  
-    - Number of missing values: 84608
+    - Number of missing values: 94803
 - Note: This information can be valuable in determining what standard was used to obtain specific coordinates
 
 ####collected_by
@@ -281,7 +282,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The names of the individuals responsible for finding the specimen
 - Values: String
 - Missing values reason: This information might not be available if the record is not linked to a museum voucher, or if the researcher neglected to include it  
-    - Number of missing values: 83692
+    - Number of missing values: 93531
 - Note: This information should match the specimen_voucher information
 
 ####location_country
@@ -290,7 +291,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The country from which the specimen originated from
 - Values: String
 - Missing values reason: This information might not be avaiable if the specimen was not linked to a specimen_voucher or if the authors neglected to include it    
-    - Number of missing values: 66411
+    - Number of missing values: 73418
 - Notes: This was originally the first half of the variable labeled "location". It was divided to better match up with geopolitical areas
 
 ####location_specific
@@ -299,7 +300,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The more specific textual information about where the specimen originated from
 - Values: String
 - Missing values reason: Strings of specific locations are not usually available unless the authors want to provide more detail about the location     
-    - Number of missing values: 78491
+    - Number of missing values: 87755
 - Notes: This was originally the second half of the variable labeled "location". It includes locations such as cities, counties, states, islands (that are not countries), and specific places
 
 #####coordinates
@@ -308,7 +309,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: Geographic coordinates in the form of latitute, longitude that point to where the specimen originated from
 - Values: String
 - Missing values reason: Specimen locations are not always provided in terms of specific geographic coordinates     
-    - Number of missing values: 86179
+    - Number of missing values: 96463
 
 ####location_specificity
 - Required
@@ -326,7 +327,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: The matching geopolitical region to the country where the specimen originated from
 - Values: Strings
 - Missing values reason: This field will only be filled out if location_country is not blank    
-    - Number of missing values: 66411
+    - Number of missing values: 73418
 
 ####geopolitical_distribution
 - Optional
@@ -334,7 +335,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: This variable matched on sci_name between the Catalogue of Life and GenBank records. It lists all the geopolitical regions where the species can be found.
 - Values: List of strings
 - Missing values reason: This field will only be filled out if sci_name matched between GenBank and the Catalogue of Life
-    - Number of missing values: 62214       
+    - Number of missing values: 71013 **incorrect, duplicates**       
 
 ####location_distribution
 - Optional
@@ -342,7 +343,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: This variable matched on sci_name between the Catalogue of Life and GenBank records. It lists all the locations where the species can be found.
 - Values: List of strings
 - Missing values reason: This field will only be filled out if sci_name matched between GenBank and the Catalogue of Life
-    - Number of missing values: 62214
+    - Number of missing values: 71013 **incorrect, duplicates**
 
 ####record_overlap [dropped from final dataset, present in poly_merged_dataset.csv]
 - Optional
@@ -358,7 +359,7 @@ The following are variable descriptions which function as column headers in poly
 - Description: A hodge-podge of values ranging from geographic coordinates to specimen location to species information or links to other records
 - Values: Strings
 - Missing values reason: This field is optional, so not all researchers include additional information about the specimen    
-    - Number of missing values: 62279
+    - Number of missing values: 66016
 
 
 --------------------------------------------------
