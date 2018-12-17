@@ -26,7 +26,6 @@ It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 
 - poly_merged_dataset.csv: [Google Drive](https://drive.google.com/open?id=1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj)
 - poly_final_dataset.csv: [Google Drive](https://drive.google.com/open?id=1pZSpq1GTLqh0hQSt8Q4GH4zD3MSsms2Fm)
-- poly_analysis.xlsx: GitHub
 
 ## System Requirements and Process
 The final dataset poly_final_dataset.csv was created using Jupyter Notebook using python 3.7.1
