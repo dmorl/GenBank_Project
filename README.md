@@ -10,7 +10,7 @@ It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 ## Files Generated (in order) and Location
 - polypodiales_download_2018-12-12.xml: [Google Drive](https://drive.google.com/open?id=1WVZRw5TSxwjPD7R6qE119gq_0QJRYLee)
 - GenBank_Root_Fix.ipynb: GitHub
-- fixed_polypodiales_download.csv
+- fixed_polypodiales_download.xml
 - GenBank_ExtractionScript.ipynb: GitHub
 - polypodiales_GenBankextraction.csv
 - GenBank_toPandas.ipynb: GitHub
