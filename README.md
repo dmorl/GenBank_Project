@@ -7,7 +7,8 @@ and Andrea Thomer, PhD (iSchool, University of Michigan) assessing the reproduca
 an NIH funded genetic sequence repository.
 It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 
-## Files Generated (in order) and Location
+## Files Generated and Location
+_See GenBank_Project_workflow.pdf for workflow details_
 - polypodiales_download_2018-12-12.xml: [Google Drive](https://drive.google.com/open?id=1WVZRw5TSxwjPD7R6qE119gq_0QJRYLee)
 - GenBank_Root_Fix.ipynb: GitHub
 - fixed_polypodiales_download.xml
