@@ -18,7 +18,10 @@ It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 - poly_taxa.txt: GitHub
 - poly_vernacular.txt: GitHub
 - poly_locationdescription.txt: GitHub
+- CatalogueLife_Distribution_cleaning.ipynb: GitHub
+- CatalogueLife_documentation.ipynb: GitHub
 - poly_distribution.csv
+- CatalogueLife_Distribution.ipynb: GitHub
 - poly_cataloguelife.csv: GitHub
 
 - poly_merged_dataset.csv: [Google Drive](https://drive.google.com/open?id=1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj)
