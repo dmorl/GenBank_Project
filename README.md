@@ -9,7 +9,7 @@ It was created as part of the Fall 2018 iSchool 590 Open Data Mashups class.
 
 ## Files Generated and Location
 _See GenBank_Project_workflow.pdf for workflow details_
-- polypodiales_download_2018-12-12.xml: [Google Drive](https://drive.google.com/open?id=1WVZRw5TSxwjPD7R6qE119gq_0QJRYLee)
+- polypodiales_download_2018-12-12.xml: [Google Drive](https://drive.google.com/file/d/1WVZRw5TSxwjPD7R6qE119gq_0QJRYLee/view?usp=sharing)
 - GenBank_Root_Fix.ipynb: GitHub
 - fixed_polypodiales_download.xml
 - GenBank_ExtractionScript.ipynb: GitHub
@@ -25,8 +25,8 @@ _See GenBank_Project_workflow.pdf for workflow details_
 - CatalogueLife_Distribution.ipynb: GitHub
 - poly_cataloguelife.csv: GitHub
 
-- poly_merged_dataset.csv: [Google Drive](https://drive.google.com/open?id=1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj)
-- poly_final_dataset.csv: [Google Drive](https://drive.google.com/open?id=1pZSpq1GTLqh0hQSt8Q4GH4zD3MSsms2Fm)
+- poly_merged_dataset.csv: [Google Drive](https://drive.google.com/file/d/1sjQ2E8wOotx8ZvF6KiVyVC-Os72cDLSj/view?usp=sharing)
+- poly_final_dataset.csv: [Google Drive](https://drive.google.com/file/d/1pZSpq1GTLqh0hQSt8Q4GH4zD3MSsms2F/view?usp=sharing)
 
 ## System Requirements and Process
 The final dataset poly_final_dataset.csv was created using Jupyter Notebook using python 3.7.1
